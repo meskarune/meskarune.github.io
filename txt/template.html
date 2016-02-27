@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>HTML5 Template</title>
+		<meta name="author" content="Your Name">
+		<meta name="description" content="An HTML5 website template">
+		<meta name="keywords" lang="en-us" content="html5, webdesign, test">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+		<link rel="stylesheet" type="text/css" media="screen" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700'>
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<style>
+			/* Global styles */
+			body {
+				background: #fff; 
+				color: #333; 
+				font-family: 'Open Sans',verdana, sans-serif;
+				font-size: 1.3em;
+			}
+			body, aside, article, header, footer {
+				padding: 1em;
+				box-sizing: border-box;
+			}
+			/* Text styles */
+			a {text-decoration: none;}
+			a:link, a:visited {color: #FF33CC;}
+			a:hover, a:active {color: #3366FF;}
+			.center {text-align: center;}
+			/* Header and footer */
+			header, footer {
+				background: #ccc;
+			}
+			header, aside, article {margin-bottom:1em;}
+			/* Main content area */
+			#content {
+				overflow: auto;
+			}
+			/* Sidebar */
+			aside {
+				float: left;
+				width: 10em;
+				background: #efefef;
+			}
+			/* "Posts" or Articles */
+			article {
+				margin-left: 11em;
+				background: #efefef;
+			}
+			@media only screen and (max-width: 740px) {
+				aside {
+					float: none;
+					width: 100%;
+				}
+				article {
+					margin-left: 0em;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header class="center" role="banner">
+			<h1><a href="/">HTML5 Website Template</a></h1>
+			<h2>This is the second heading for your webpage</h2>
+		</header>
+		<div id="content" role="main">
+			<aside class="sidebar" role="complementary">
+				<p>This is a sidebar. You can place navigation elements, search
+				forms or anything else you would like here.</p>
+			</aside>
+			<article>
+				<header role="heading">
+					<h3>Article Header</h3>
+				</header>
+				<p>Please feel free to use this template for your next web project.
+				This template has a basic layout with a header, footer, sidebar
+				and articles. It uses the Open Sans font which looks great an
+				all operating systems (including windows). <a href="http://www.w3.org/WAI/intro/aria">WAI-Aria</a> 
+				roles are also set for each of the HTML elements so this webpage
+				is accessible to those with disabilities.</p>
+			</article>
+		</div><!-- End of main content area -->
+		<footer class="center" role="contentinfo">
+			This is the site footer.
+		</footer>
+	</body>
+</html>
