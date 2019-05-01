@@ -50,7 +50,8 @@ nav {
   border-radius: 0px 0px 5px 5px;
 }
 #menu li ul li:hover {
-  background: #050029;
+  /*background: #050029;*/
+  background: #040032;
 }
 #menu li ul li:hover a {
   color: #ccc;
